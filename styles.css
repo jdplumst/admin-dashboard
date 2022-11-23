@@ -23,6 +23,18 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+h2, h3, h4 {
+    font-weight: bold;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -42,6 +54,7 @@ body {
 
     display: grid;
     grid-template-columns: 2fr 1fr;
+    gap: 10px;
 
     background-color: lightgrey;
 }
@@ -61,7 +74,10 @@ body {
     background-color: white;
     border-left: 5px solid gold;
     border-radius: 7px;
-    
+}
+ 
+.projects-item,
+.announcements-item {
     display: flex;
     flex-direction: column;
     margin: 5px 10px;
@@ -84,4 +100,25 @@ img {
     height: 20px;
     width: 20px;
     margin-top: 20px;
+}
+
+.side-announcements h2 {
+    padding-top: 10px;
+}
+
+.announcements-wrapper {
+    background-color: white;
+    border-radius: 7px;
+
+    display: grid;
+    gap: 5px;
+
+    margin-top: 5px;
+}
+
+.row-border {
+    border-top: 2px solid lightgray;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
