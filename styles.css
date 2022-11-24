@@ -144,7 +144,8 @@ p.tag {
     margin-right: auto;
 }
 
-.trending-item {
+.trending-item,
+.sidebar-item {
     display: grid;
     grid-template-columns: 50px auto;
     align-items: center;
@@ -160,4 +161,30 @@ p.tag {
     width: 40px;
     grid-row: 1 / 3;
     border-radius: 50%;
+}
+
+.sidebar {
+    background-color:deepskyblue;
+    padding: 20px 20px;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+}
+
+.sidebar-item img {
+    height: 30px;
+    width: 30px;
+    -webkit-filter: invert(100%); /* Make images white */
+    filter: invert(100%);
+}
+.sidebar-item h2,
+.sidebar-item p {
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar-header,
+.sidebar-main {
+    margin-bottom: 50px;
 }
