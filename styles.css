@@ -149,6 +149,10 @@ input[type="text"] {
     padding-bottom: 40px;
 }
 
+.main h2 {
+    color: white;
+}
+
 .main-projects h2 {
     margin-left: 10px;
     padding-top: 10px;
